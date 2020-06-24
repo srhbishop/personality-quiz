@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time: What Classic Painting Are You?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Time! Answer the questions below to discover a classic work of art that matches your personality.</h1>
+    </header>
+    <div class="question-container">
+        <h2 class="question">1. What was your favorite subject in school?</h2>
+        <div class="radio-wrapper">
+            <input type="radio" name="question1" class="answer-a" id="1a">
+            <label for="1a">English</label>
+        </div>
+        <div class="radio-wrapper">
+            <input type="radio" name="question1" class="answer-b" id="1b">
+            <label for="1b">Band</label>
+        </div>
+        <div class="radio-wrapper">
+            <input type="radio" name="question1" class="answer-c" id="1c">
+            <label for="1c">Science</label>
+        </div> 
+    </div>
+    <div class="question-container">
+        <h2 class="question">2. Do you consider yourself an introvert, extravert, or ambivert?</h2>
+        <div class="radio-wrapper">
+            <input type="radio" name="question2" class="answer-b" id="2b">
+            <label for="2b">Extrovert</label>
+        </div>
+        <div class="radio-wrapper">
+            <input type="radio" name="question2" class="answer-a" id="2a">
+            <label for="2a">Introvert</label>
+        </div>
+        <div class="radio-wrapper">
+            <input type="radio" name="question2" class="answer-c" value="2c">
+            <label for="2c">Ambivert</label>  
+        </div>      
+    </div>
+    <div class="question-container">
+        <h2 class="question">3. Are you a morning person or a night owl?</h2>
+        <div class="radio-wrapper">
+            <input type="radio" name="question3" class="answer-b" id="3b">
+            <label for="3b">Morning Person</label>
+        </div>
+        <div class="radio-wrapper">
+            <input type="radio" name="question3" class="answer-a" id="3a">
+            <label for="3a">Night Owl</label>
+        </div>
+        <div class="radio-wrapper">
+            <input type="radio" name="question3" class="answer-c" id="3c">
+            <label for="3c">Depends on the day...</label>
+        </div>       
+    </div>
+    <div class="question-container">
+        <h2 class="question">4. How do you respond to stress?</h2>
+        <div class="radio-wrapper">
+            <input type="radio" name="question4" class="answer-b" id="4b">
+            <label for="4b">I eat stress for breakfast</label>
+        </div>
+        <div class="radio-wrapper">
+            <input type="radio" name="question4" class="answer-c" id="4c">
+            <label for="4c">Just whatever. I roll with the punches.</label>
+        </div>
+        <div class="radio-wrapper">
+            <input type="radio" name="question4" class="answer-a" id="4a">
+            <label for="4a">I get very anxious.</label>
+        </div>
+    </div>
+    <div class="question-container">
+        <h2 class="question">5. What is your idea of an ideal weekend?</h2>
+        <div class="radio-wrapper">
+            <input type="radio" name="question5" class="answer-c" id="5c">
+            <label for="5c">Doing something adventurous</label>
+        </div>
+        <div class="radio-wrapper">
+            <input type="radio" name="question5" class="answer-a" id="5a">
+            <label for="5a">Staying home and hiding from the world.</label>
+        </div>
+        <div class="radio-wrapper">
+            <input type="radio" name="question5" class="answer-b" id="5b">
+            <label for="5b">Chilling with my besties.</label>
+        </div>
+    </div>
+
+    <button class="submit-btn">Submit</button>
+
+    <div class="results-wrapper inactive">
+        <div class="results">
+            <div class="print-img">
+            </div>
+            <div class="results-text-and-repeat">
+                <p class="print-results">
+                </p>
+                <button class="repeat-btn">Repeat Quiz</button>
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>
+    
+
+</body>
+</html>
